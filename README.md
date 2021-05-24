@@ -1,0 +1,2 @@
+# AlgorithmWorkshop
+Алгоритмический ликбез
