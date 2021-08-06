@@ -9,14 +9,18 @@ namespace SortingAlgorithms
         {
             Console.WriteLine("***** Fun with Sorting Algorithms *****");
             List<int> array = new List<int>() {59, 10, 56, 26, 11, 87, 24, 88, 75, 37};
-            DisplayArray(array);
+            DisplayArray(array, "default");
             
             // Bubble sort
-            DisplayArray(BubbleSort.Sort(array));
+            DisplayArray(BubbleSort.Sort(new List<int>(array)), "Bubble Sort");
+
+            //Insertion Sort
+            DisplayArray(InsertionSort.Sort(array), "Insertion Sort");
         }
 
-        static void DisplayArray(List<int> array)
+        static void DisplayArray(List<int> array, string name)
         {
+            System.Console.WriteLine("----->" + name);
             foreach (var item in array)
             {
                 Console.Write(item + " ");
