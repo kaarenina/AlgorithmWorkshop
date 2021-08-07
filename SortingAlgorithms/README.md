@@ -15,4 +15,5 @@
 
 
 ## Selection Sort
+![](https://github.com/kaarenina/AlgorithmWorkshop/blob/SortingAlgorithms/SortingAlgorithms/images/selectionSort.gif)
 
