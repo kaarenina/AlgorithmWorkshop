@@ -14,8 +14,11 @@ namespace SortingAlgorithms
             // Bubble sort
             DisplayArray(BubbleSort.Sort(new List<int>(array)), "Bubble Sort");
 
-            //Insertion Sort
+            // Insertion Sort
             DisplayArray(InsertionSort.Sort(array), "Insertion Sort");
+
+            // Selection Sort
+            DisplayArray(SelectionSort.Sort(new List<int>(array)), "Selection Sort");
         }
 
         static void DisplayArray(List<int> array, string name)

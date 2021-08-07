@@ -12,3 +12,7 @@
 Алгоритм сортировки, в котором элементы входной последовательности просматриваются по одному, и каждый новый поступивший элемент размещается в подходящее место среди ранее упорядоченных элементов.
 
 ![Alt Text](https://github.com/kaarenina/AlgorithmWorkshop/blob/SortingAlgorithms/SortingAlgorithms/images/insertionSort.gif)
+
+
+## Selection Sort
+
