@@ -8,7 +8,7 @@ namespace SortingAlgorithms
         static void Main(string[] args)
         {
             Console.WriteLine("***** Fun with Sorting Algorithms *****");
-            List<int> array = new List<int>() {59, 10, 56, 26, 11, 87, 24, 88, 75, 37};
+            List<int> array = new List<int>() {59, 10, 56, 26, 11, 87, 24, 88, 75, 37}; 
             DisplayArray(array, "default");
             
             // Bubble sort
@@ -19,6 +19,9 @@ namespace SortingAlgorithms
 
             // Selection Sort
             DisplayArray(SelectionSort.Sort(new List<int>(array)), "Selection Sort");
+
+            // Merge Sort
+            DisplayArray(MergeSort.Sort(new List<int>(array)), "Merge Sort");
         }
 
         static void DisplayArray(List<int> array, string name)
